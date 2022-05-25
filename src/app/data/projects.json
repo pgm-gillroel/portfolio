@@ -1,0 +1,26 @@
+[
+    {
+    "title": "Gentse feesten",
+    "img": "Gentse-feesten.png",
+    "description": "A clone of the website of the Gentse feeststen.",
+    "skils": ["Javascript", "CSS", "HTML", "Fetching APi"]
+},
+{
+    "title": "Spotify",
+    "img": "spotify.png",
+    "description": "a clone of the application Spotify. We used a database and authentication",
+    "skils": ["Javascript", "CSS", "HTML", "Typeorm"]
+},
+{
+    "title": "Just do it",
+    "img": "just-do-it.png",
+    "description": "a to do app with authentication and a database. where you can add, delete and modify tasks",
+    "skils": ["Javascript", "CSS", "HTML", "Typeorm"]
+},
+{
+    "title": "Arne Quinze",
+    "img": "Arne-quinze.png",
+    "description": "A clone of the website of the famous artist Arne Quinze. We got the data from a Json file",
+    "skils": ["Javascript", "CSS", "HTML"]
+}
+]
