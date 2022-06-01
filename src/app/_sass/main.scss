@@ -16,8 +16,10 @@ $svg-react: #64d5f3;
 $svg-adobeXd: #450135;
 $svg-eleventy: #212121;
 
-$font-family-sans-serif: 'Source Sans Pro', sans-serif;
-$headings-font-family: 'Ubuntu', sans-serif;
+$font-family-sans-serif: 'Source Sans Pro',
+sans-serif;
+$headings-font-family: 'Ubuntu',
+sans-serif;
 
 $margin-btm-container: 8rem;
 
@@ -47,7 +49,19 @@ $margin-btm-container: 8rem;
 
 .container {
 
+    .intro-container {
+        margin-bottom: $margin-btm-container;
+    }
+
     .aboutMe-container {
+        margin-bottom: $margin-btm-container;
+
+        .aboutMe__text {
+            width: 40%;
+        }
+    }
+
+    .project-container {
         margin-bottom: $margin-btm-container;
     }
 
@@ -57,16 +71,16 @@ $margin-btm-container: 8rem;
         a {
             color: $body-color;
         }
-        
+
         .gegevens {
             svg {
                 width: 2rem;
                 height: 2rem;
             }
         }
-    
+
         .socials {
-            
+
             svg {
                 width: 3rem;
                 height: 3rem;
@@ -79,6 +93,7 @@ $margin-btm-container: 8rem;
     .skills-container {
 
         margin-bottom: $margin-btm-container;
+
         .skill {
             svg {
                 width: 4rem;
@@ -109,6 +124,40 @@ $margin-btm-container: 8rem;
                 fill: $svg-eleventy;
             }
 
+
+        }
+    }
+
+    .project-container {
+        width: 100%;
+
+        .project__img {
+
+            img {
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+
+
+        .project__text {
+            width: 60%;
+        }
+    }
+
+    .to-top__container {
+        position: fixed;
+        right: 5%;
+        bottom: 5rem;
+        background-color: #64d5f3;
+        border-radius: 50%;
+        padding: 0.5rem;
+
+        .to-top__button {
+            cursor: pointer;
+            width: 2rem;
+            height: 2rem;
+            transition: .2s ease;
 
         }
     }

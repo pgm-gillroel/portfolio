@@ -1,26 +1,34 @@
 [
     {
+    "id": 1,
     "title": "Gentse feesten",
     "img": "Gentse-feesten.png",
     "description": "A clone of the website of the Gentse feeststen.",
-    "skils": ["Javascript", "CSS", "HTML", "Fetching APi"]
+    "skills": ["Javascript", "CSS", "HTML", "Fetching APi"],
+    "link": "https://github.com/pgmgent-atwork-1/atwork-1-project-2-pgm-gillroel"
 },
 {
+    "id": 2,
     "title": "Spotify",
     "img": "spotify.png",
     "description": "a clone of the application Spotify. We used a database and authentication",
-    "skils": ["Javascript", "CSS", "HTML", "Typeorm"]
+    "skills": ["Javascript", "CSS", "HTML", "Typeorm"],
+    "link": "https://github.com/pgmgent-pgm-3/opdracht-2-a-spotify-application-pgm-gillroel"
 },
 {
+    "id": 3,
     "title": "Just do it",
     "img": "just-do-it.png",
     "description": "a to do app with authentication and a database. where you can add, delete and modify tasks",
-    "skils": ["Javascript", "CSS", "HTML", "Typeorm"]
+    "skills": ["Javascript", "CSS", "HTML", "Typeorm"],
+    "link": "https://github.com/pgmgent-pgm-3/opdracht-1-just-do-it-pgm-gillroel"
 },
 {
+    "id": 4,
     "title": "Arne Quinze",
     "img": "Arne-quinze.png",
     "description": "A clone of the website of the famous artist Arne Quinze. We got the data from a Json file",
-    "skils": ["Javascript", "CSS", "HTML"]
+    "skills": ["Javascript", "CSS", "HTML"],
+    "link": "https://github.com/pgmgent-atwork-1/atwork-1-project-1-pgm-gillroel"
 }
 ]

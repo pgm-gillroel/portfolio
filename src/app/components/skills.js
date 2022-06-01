@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     
     <div className='skills-container row'>
-      <h3 className='text-center mb-3'>Skills</h3>
+      <h3 id='skills' className='text-center mb-3'>Skills</h3>
       <div className='skill col mb-3'>
         <SiJavascript className='svg svg--javascript'/>
       </div>

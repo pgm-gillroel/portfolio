@@ -1,7 +1,7 @@
 {
   "name": "portofolio",
   "version": "0.1.0",
-  "homepage": "https://pgm-gillroel.github.io",
+  "homepage": "https://pgm-gillroel.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -12,9 +12,10 @@
     "react-dom": "^18.1.0",
     "react-icons": "^4.3.1",
     "react-scripts": "5.0.1",
+    "react-typing-effect": "^2.0.5",
     "reactstrap": "^9.0.2",
-    "web-vitals": "^2.1.4",
-    "sass": "^1.52.1"
+    "sass": "^1.52.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
