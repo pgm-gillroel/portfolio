@@ -70,6 +70,7 @@ $margin-btm-container: 8rem;
     }
     h1, h2, h3, h4 {
         color: $secondary-color;
+        margin-bottom: 0.8rem;
     }
 
     .intro-container {
@@ -240,11 +241,14 @@ $margin-btm-container: 8rem;
         color: $body-color;
         border-radius: 50%;
         padding: 0.5rem;
+        border: none;
+
 
         .to-top__button {
             cursor: pointer;
             width: 2rem;
             height: 2rem;
+            fill: $body-bg;
             transition: 2s ease;
         }
     }
