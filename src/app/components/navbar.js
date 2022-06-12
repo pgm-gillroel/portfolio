@@ -28,7 +28,7 @@ const NavBar = () => {
     expand="md"
     light
   >
-    <NavbarBrand href="/">
+    <NavbarBrand href="#">
       GR
     </NavbarBrand>
     <NavbarToggler onClick={OpenNav} />
