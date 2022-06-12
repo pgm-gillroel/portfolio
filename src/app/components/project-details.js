@@ -12,9 +12,9 @@ const ProjectDetails = ({project}) => {
         <img  src={process.env.PUBLIC_URL + `/assets/images/${project.img}`} alt={project.title}/>
       </div>
       <div className="project__text col-md align-self-center">
-        <h3>{project.title}</h3>
+        <h4>{project.title}</h4>
         <p>{project.description}</p>
-        <div className="row">{project && project.skills.map((skill) => (<p className="skill col" key={skill}>{skill}</p>))}</div>
+        <div className="row">{project && project.skills.map((skill) => (<p className="skills col" key={skill}>{skill}</p>))}</div>
         <a className='project__link' href={project.link} target="_blank" rel="noreferrer"><AiFillGithub/></a>
       </div>
     </div>

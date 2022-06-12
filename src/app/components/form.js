@@ -24,7 +24,7 @@ const FormEmail = () => {
     };
 
   return (
-    <div className="form-container">
+    <div className="form-container justify-content-center">
       <h4>Contact me</h4>
       <div className="col-6">
       <Form onSubmit={handleOnSubmit}>
@@ -88,7 +88,7 @@ const FormEmail = () => {
           size: 10
         }}
       >
-        <Button>
+        <Button className="btn-form">
           Submit
         </Button>
       </Col>

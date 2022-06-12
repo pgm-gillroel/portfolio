@@ -16,20 +16,20 @@ const NavBar = () => {
     if (!navOpen) {
       setNavOpen(true);
     }else  {
-      setNavOpen(false)
+      setNavOpen(false);
     }
   }
 
 
   return (
-    <nav>
+    <nav className='container'>
   <Navbar
     color="light"
     expand="md"
     light
   >
     <NavbarBrand href="/">
-      reactstrap
+      GR
     </NavbarBrand>
     <NavbarToggler onClick={OpenNav} />
     <Collapse navbar style={{display: navOpen ? 'block' : 'none'}}>

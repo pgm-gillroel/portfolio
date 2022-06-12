@@ -6,15 +6,26 @@
 
 // 2. Include any default variable overrides here
 // Default variable overrides
-$body-bg: #fefefe;
-$body-color: #111;
+$body-bg: #0C0B0A;
+$body-color: #0C0B0A;
+$secondary-color: #CE3900;
+$white-color: #fff;
 
-$svg-javascript: #efd81d;
-$svg-html: #de4d26;
-$svg-css: #254bdd;
-$svg-react: #64d5f3;
-$svg-adobeXd: #450135;
-$svg-eleventy: #212121;
+$svg-javascript: #f0d71c80;
+$svg-html: #df4e2680;
+$svg-css: #254add80;
+$svg-react: #64d4f381;
+$svg-adobeXd: #45013580;
+$svg-eleventy: #21212180;
+$svg-gegevens:  #df7b51;
+
+$svg-javascript-hover: #efd61d;
+$svg-html-hover: #de4d26;
+$svg-css-hover: #254bdd;
+$svg-react-hover: #64d5f3;
+$svg-adobeXd-hover: #450135;
+$svg-eleventy-hover: #212121;
+$svg-gegevens-hover:  #df7c51ad;
 
 $font-family-sans-serif: 'Source Sans Pro',
 sans-serif;
@@ -47,10 +58,32 @@ $margin-btm-container: 8rem;
 // 8. Add additional custom code here
 
 
+
 .container {
+
+    nav {
+        background-color: $white-color !important;
+
+        a:hover {
+            color: $secondary-color !important ;
+        }
+    }
+    h1, h2, h3, h4 {
+        color: $secondary-color;
+    }
 
     .intro-container {
         margin-bottom: $margin-btm-container;
+
+        .avatar-container {
+            .avatar {
+                width: 70%;
+            }
+
+
+        }
+
+
     }
 
     .aboutMe-container {
@@ -76,6 +109,11 @@ $margin-btm-container: 8rem;
             svg {
                 width: 2rem;
                 height: 2rem;
+                fill: $svg-gegevens;
+            }
+
+            svg:hover {
+                fill: $svg-gegevens-hover ;
             }
         }
 
@@ -84,9 +122,20 @@ $margin-btm-container: 8rem;
             svg {
                 width: 3rem;
                 height: 3rem;
+                fill: $svg-gegevens;
+            }
+
+            svg:hover {
+                fill: $svg-gegevens-hover;
             }
         }
 
+    }
+
+    .form-container {
+        .btn-form {
+            background-color: $secondary-color !important;
+        }
     }
 
 
@@ -98,30 +147,55 @@ $margin-btm-container: 8rem;
             svg {
                 width: 4rem;
                 height: 4rem;
+                transition: all 0.4s ease;
             }
 
             .svg--css {
                 fill: $svg-css;
             }
 
+            .svg--css:hover {
+                fill: $svg-css-hover;
+            }
+
             .svg--javascript {
                 fill: $svg-javascript;
+            }
+
+            .svg--javascript:hover {
+                fill: $svg-javascript-hover;
             }
 
             .svg--html {
                 fill: $svg-html;
             }
 
+            .svg--html:hover {
+                fill: $svg-html-hover;
+            }
+
             .svg--adobeXD {
                 fill: $svg-adobeXd;
+            }
+
+            .svg--adobeXD:hover {
+                fill: $svg-adobeXd-hover;
             }
 
             .svg--react {
                 fill: $svg-react;
             }
 
+            .svg--react:hover {
+                fill: $svg-react-hover;
+            }
+
             .svg--eleventy {
                 fill: $svg-eleventy;
+            }
+
+            .svg--eleventy:hover {
+                fill: $svg-eleventy-hover;
             }
 
 
@@ -143,13 +217,27 @@ $margin-btm-container: 8rem;
         .project__text {
             width: 60%;
         }
+
+        .project__link {
+
+            svg {
+                width: 2rem;
+                height: 2rem;
+            }
+
+        }
+
+        .skills {
+            color: $secondary-color;
+        }
     }
 
     .to-top__container {
         position: fixed;
         right: 5%;
         bottom: 5rem;
-        background-color: #64d5f3;
+        background-color: $secondary-color;
+        color: $body-color;
         border-radius: 50%;
         padding: 0.5rem;
 
@@ -157,8 +245,20 @@ $margin-btm-container: 8rem;
             cursor: pointer;
             width: 2rem;
             height: 2rem;
-            transition: .2s ease;
-
+            transition: 2s ease;
         }
     }
+
+    .contact-container {
+        margin-bottom: $margin-btm-container;
+    }
 }
+
+
+   
+.footer {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+

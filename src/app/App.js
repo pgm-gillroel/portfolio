@@ -2,7 +2,7 @@ import './App.css';
 
 
 import './App.scss';
-import { AboutMe, Contact, NavBar, PostDetailComponent, Skills, ToTop } from './components';
+import { AboutMe, Contact, Footer, NavBar, PostDetailComponent, Skills, ToTop } from './components';
 import Intro from './components/intro';
 
 
@@ -10,8 +10,11 @@ import Intro from './components/intro';
 
 const App = () => {
   return (
-    <div>
+    <div className='app'>
+      <header>
       <NavBar/>
+      </header>
+      <main>
       <div className='container'>
         <Intro/>
         <ToTop/>
@@ -20,13 +23,11 @@ const App = () => {
         <PostDetailComponent/>
         <Skills/>
         <Contact/>
-
-        
-      
-      
-      
-      
       </div>
+      </main>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
 
     

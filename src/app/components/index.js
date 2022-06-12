@@ -5,6 +5,7 @@ import PostDetailComponent from "./postDetailComponent";
 import Intro from "./intro";
 import NavBar from "./navbar";
 import ToTop from "./toTop";
+import Footer from "./footer";
 
 
 
@@ -16,4 +17,5 @@ export {
   PostDetailComponent,
   NavBar,
   ToTop,
+  Footer
 }
