@@ -6,6 +6,7 @@ import Intro from "./intro";
 import NavBar from "./navbar";
 import ToTop from "./toTop";
 import Footer from "./footer";
+import CalculateAge from "./calculateAge";
 
 
 
@@ -17,5 +18,6 @@ export {
   PostDetailComponent,
   NavBar,
   ToTop,
-  Footer
+  Footer,
+  CalculateAge
 }
