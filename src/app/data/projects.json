@@ -30,5 +30,13 @@
     "description": "A clone of the website of the famous artist Arne Quinze. We got the data from a Json file",
     "skills": ["Javascript", "CSS", "HTML"],
     "link": "https://github.com/pgmgent-atwork-1/atwork-1-project-1-pgm-gillroel"
+},
+{
+    "id": 5,
+    "title": "Baby planner",
+    "img": "babyplanner.png",
+    "description": "A group project in which we created an application for mothers who have just given birth to better plan visits",
+    "skills": ["Javascript", "CSS", "HTML", "Typeorm"],
+    "link": "https://github.com/pgm-gillroel/babyplanner"
 }
 ]

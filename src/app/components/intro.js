@@ -6,7 +6,7 @@ const Intro = () => {
       <div className='col-sm align-self-center'>
         <h1>Hi, I'm Gilles Roels</h1>
         <h2>      <ReactTypingEffect eraseDelay={2000} typingDelay={1000}
-          text={["Programmer", "Web designer", "Front-end web developer"]}
+          text={["Programmer", "Web designer", "PHP developer"]}
         />
         </h2>
       </div>

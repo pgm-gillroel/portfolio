@@ -18,6 +18,10 @@ $svg-react: #64d4f381;
 $svg-adobeXd: #45013580;
 $svg-eleventy: #21212180;
 $svg-gegevens:  #df7b51;
+$svg-php: #7377ad71;
+$svg-laravel: #ef473e6f;
+$svg-typescript: #5996d275;
+$svg-nestjs: #d620516f;
 
 $svg-javascript-hover: #efd61d;
 $svg-html-hover: #de4d26;
@@ -26,6 +30,10 @@ $svg-react-hover: #64d5f3;
 $svg-adobeXd-hover: #450135;
 $svg-eleventy-hover: #212121;
 $svg-gegevens-hover:  #df7c51ad;
+$svg-php-hover: #7377ad;
+$svg-laravel-hover: #ef473e;
+$svg-typescript-hover: #5996d2;
+$svg-nestjs-hover: #d62051;
 
 $font-family-sans-serif: 'Source Sans Pro',
 sans-serif;
@@ -197,6 +205,38 @@ $margin-btm-container: 8rem;
 
             .svg--eleventy:hover {
                 fill: $svg-eleventy-hover;
+            }
+
+            .svg--php {
+                fill: $svg-php;
+            }
+
+            .svg--php:hover {
+                fill: $svg-php-hover;
+            }
+
+            .svg--laravel {
+                fill: $svg-laravel;
+            }
+
+            .svg--laravel:hover {
+                fill: $svg-laravel-hover;
+            }
+
+            .svg--typescript {
+                fill: $svg-typescript;
+            }
+
+            .svg--typescript:hover {
+                fill: $svg-php-hover;
+            }
+
+            .svg--nestjs {
+                fill: $svg-nestjs;
+            }
+
+            .svg--nestjs:hover {
+                fill: $svg-nestjs-hover;
             }
 
 

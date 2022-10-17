@@ -1,4 +1,4 @@
-import {SiJavascript, SiReact, SiHtml5, SiCss3, SiAdobexd, SiEleventy} from 'react-icons/si'
+import {SiJavascript, SiReact, SiHtml5, SiCss3, SiAdobexd, SiEleventy, SiPhp, SiLaravel, SiTypescript, SiNestjs} from 'react-icons/si'
 
 const Skills = () => {
   return (
@@ -23,6 +23,24 @@ const Skills = () => {
       <div className='skill col mb-3'>
         <SiEleventy className='svg svg--eleventy'/>
       </div>
+
+      <div className='skill col mb-3'>
+        <SiPhp className='svg svg--php'/>
+      </div>
+
+      <div className='skill col mb-3'>
+        <SiLaravel className='svg svg--laravel'/>
+      </div>
+
+      <div className='skill col mb-3'>
+        <SiTypescript className='svg svg--typescript'/>
+      </div>
+
+      <div className='skill col mb-3'>
+        <SiNestjs className='svg svg--nestjs'/>
+      </div>
+
+
     </div>
   )
 }
